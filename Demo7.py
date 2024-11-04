@@ -312,6 +312,7 @@ if file:
         Entity_SOV3 = pd.DataFrame(Entity_SOV1.to_records()).round()
         Entity_SOV3['% '] = Entity_SOV3['% '].astype(int)
         Entity_SOV3['% '] = Entity_SOV3['% '].astype(str) + '%'
+        Entity_SOV3 = pd.DataFrame(Entity_SOV3.to_records())
 
         # Additional MOM DataFrames
         finaldata['Date'] = pd.to_datetime(finaldata['Date']).dt.normalize()
