@@ -917,12 +917,14 @@ News search: All Articles: entity mentioned at least once in the article"""
 
     if st.sidebar.button("Download PowerPoint"):
         # List of DataFrames to save
-        dfs = [Entity_SOV3, sov_dt1, pubs_table, Jour_table, PType_Entity, PP_table]
+        pubs_table1 = pubs_table.head(10)
+        Jour_table1 = Jour_table.head(10)
+        dfs = [Entity_SOV3, sov_dt1, pubs_table1, Jour_table1, PType_Entity]
         table_titles = ['SOV Table', 'Month-on-Month Table', 'Publication Table', 'Journalist Table',
-                    'Pub Type and Entity Table', 'Pub Type and Pub Name Table',
+                    'Pub Type and Entity Table', 
                     ]
         textbox_text = ['SOV Table', 'Month-on-Month Table', 'Publication Table', 'Journalist Table',
-                    'Pub Type and Entity Table', 'Pub Type and Pub Name Table',
+                    'Pub Type and Entity Table',
                     ]
         # Create a new PowerPoint presentation
         # prs = Presentation()
