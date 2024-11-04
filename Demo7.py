@@ -308,11 +308,11 @@ if file:
         En_sov['% '] = ((En_sov['News Count'] / En_sov['News Count'].sum()) * 100).round(2)
         Sov_table = En_sov.sort_values(by='News Count', ascending=False)
         Sov_table.loc['Total'] = Sov_table.sum(numeric_only=True, axis=0)
-        Entity_SOV1 = Sov_table.round()
+        Entity_SOV1 = Sov_table
         Entity_SOV3 = pd.DataFrame(Entity_SOV1.to_records()).round()
         Entity_SOV3['% '] = Entity_SOV3['% '].astype(int)
         Entity_SOV3['% '] = Entity_SOV3['% '].astype(str) + '%'
-        Entity_SOV3 = pd.DataFrame(Entity_SOV3.to_records())
+        # Entity_SOV3 = pd.DataFrame(Entity_SOV3.to_records())
 
         # Additional MOM DataFrames
         finaldata['Date'] = pd.to_datetime(finaldata['Date']).dt.normalize()
