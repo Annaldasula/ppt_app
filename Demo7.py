@@ -393,18 +393,31 @@ if file:
 
         # Topic classification
         topic_mapping = {
-            'Merger': ['merger', 'merges'],
-            'Acquire': ['acquire', 'acquisition', 'acquires'],
-            'Partnership': ['partnership', 'tie-up'],
-            'Business Strategy': ['launch', 'campaign', 'IPO', 'sales'],
-            'Investment and Funding': ['invest', 'funding'],
-            'Employee Engagement': ['layoff', 'hiring'],
-            'Financial Performance': ['profit', 'loss', 'revenue'],
-            'Business Expansion': ['expansion', 'opens'],
-            'Leadership': ['ceo'],
-            'Stock Related': ['stock', 'shares'],
-            'Awards & Recognition': ['award'],
-            'Legal & Regulatory': ['penalty', 'scam'],
+              'Merger': ['merger', 'merges'],
+                
+              'Acquire': ['acquire', 'acquisition', 'acquires'],
+                
+              'Partnership': ['partnership', 'tieup', 'tie-up','mou','ties up','ties-up','joint venture'],
+                'Partnership': ['IPO','ipo'],
+               'Products & Services': ['launch', 'launches', 'launched', 'announces','announced', 'announcement','IPO','campaign','launch','launches','ipo','sales','sells','introduces','announces','introduce','introduced','unveil',
+                                    'unveils','unveiled','rebrands','changes name','bags','lays foundation','hikes','revises','brand ambassador','enters','ambassador','signs','onboards','stake','stakes','to induct','forays','deal'],
+                
+               'Investment and Funding': ['invests', 'investment','invested','funding', 'raises','invest','secures'],
+                
+              'Employee Related': ['layoff', 'lay-off', 'laid off', 'hire', 'hiring','hired','appointment','re-appoints','reappoints','steps down','resigns','resigned','new chairman','new ceo','layoffs','lay offs'],
+                
+              'Financial Performence': ['quarterly results', 'profit', 'losses', 'revenue','q1','q2','q3','q4'],
+            'Leadership': ['in conversation', 'speaking to', 'speaking with','ceo','opens up'], 
+                
+               'Business Expansion': ['expansion', 'expands', 'inaugration', 'inaugrates','to open','opens','setup','set up','to expand','inaugurates'], 
+                
+               'Stock Related': ['buy', 'target', 'stock','shares' ,'stocks','trade spotlight','short call','nse'], 
+                
+                'Awards & Recognition': ['award', 'awards'],
+                
+                'Legal & Regulatory': ['penalty', 'fraud','scam','illegal'],
+            
+            'Sale - Offers - Discounts' : ['sale','offers','discount','discounts','discounted']
         }
 
         def classify_topic(headline):
@@ -912,7 +925,7 @@ News search: All Articles: entity mentioned at least once in the article"""
                     'Pub Type and Entity Table', 'Pub Type and Pub Name Table',
                     ]
         # Create a new PowerPoint presentation
-        prs = Presentation()
+        # prs = Presentation()
 
         # Loop through each DataFrame and create a new slide with a table
         for i, (df, title) in enumerate(zip(dfs, table_titles)):
