@@ -941,7 +941,7 @@ News search: All Articles: entity mentioned at least once in the article"""
     "•The top journalists reporting on IIT Ropar and its competitors are Sukanya Nandy from News18 with 59 articles, followed by Hemali Chapia from TOI with 44 articles, and Suramya Sunilraj from News18 with 43 articles.\n"
     "•Among the journalists specifically covering IIT Ropar, Munieshwer A Sagar and Deepak Yadav from Times of India have authored 1 article each, and Arushi Mishra from Hindu Business Line wrote 1 article.\n"
     "•IIT Ropar has received a total of 44 articles in news coverage. Among these, 39 i.e., 88% of the articles were filed by Bureaus, while the remaining 5 i.e., 12% were written by individual journalists.\n"
-    "•A total of 387 journalists have written 1155 articles covering IIT Ropar and its competitors. Out of these, 5 journalists have specifically written 5 articles mentioning IIT Ropar i.e., of the total journalists writing on IIT Ropar and its competitors, only 1% of them have mentioned IIT Ropar in their articles.",
+    ,
                     "•Top Publication Types writing on IIT Ropar are General and Business & Financials; they both contribute 90% of the total news coverage on IIT Ropar.\n"
     "•IIT Madras and IIT Delhi dominate across all publication types, especially in general, business, technology, and digital-first publications.\n"
     "•IIT Ropar may find value in engaging more with General and Business along with technology, and digital-first publications to expand its reach and visibility among broader audiences.",
