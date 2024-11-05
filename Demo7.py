@@ -939,7 +939,7 @@ News search: All Articles: entity mentioned at least once in the article"""
     , "The leading publications reporting on IIT Ropar and its competitors are Times of India, contributing 561 articles, followed by Economic Times with 467 articles, and The Indian Express with 455 articles.\n"
     "Among these, publications covering news on IIT Ropar specifically are The Indian Express with 9 articles, followed by Tribune with 9 articles, and Times of India with 7 articles.\n"
     "The top 10 publications writing articles on IIT Ropar contribute 86% of the total 44 articles.",
-    '"The top journalists reporting on IIT Ropar and its competitors are Sukanya Nandy from News18 with 59 articles, followed by Hemali Chapia from TOI with 44 articles, and Suramya Sunilraj from News18 with 43 articles.\n"
+    "The top journalists reporting on IIT Ropar and its competitors are Sukanya Nandy from News18 with 59 articles, followed by Hemali Chapia from TOI with 44 articles, and Suramya Sunilraj from News18 with 43 articles.\n"
     "Among the journalists specifically covering IIT Ropar, Munieshwer A Sagar and Deepak Yadav from Times of India have authored 1 article each, and Arushi Mishra from Hindu Business Line wrote 1 article.\n"
     "IIT Ropar has received a total of 44 articles in news coverage. Among these, 39 i.e., 88% of the articles were filed by Bureaus, while the remaining 5 i.e., 12% were written by individual journalists.\n"
     "A total of 387 journalists have written 1155 articles covering IIT Ropar and its competitors. Out of these, 5 journalists have specifically written 5 articles mentioning IIT Ropar i.e., of the total journalists writing on IIT Ropar and its competitors, only 1% of them have mentioned IIT Ropar in their articles.",
