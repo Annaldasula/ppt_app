@@ -155,8 +155,8 @@ def multiple_dfs(df_list, sheet_name, file_name, comments, entity_info):
 
 def add_table_to_slide(slide, df, title, textbox_text):
     rows, cols = df.shape
-    left = Inches(1)
-    top = Inches(1.5)
+    left = Inches(0.5)
+    top = Inches(0.5)
     width = Inches(14)
     max_table_height = Inches(5)
     total_height_needed = Inches(0.8 * (rows + 1))
