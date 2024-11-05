@@ -930,7 +930,6 @@ News search: All Articles: entity mentioned at least once in the article"""
     "IIT Bombay, IIT Kanpur, and IIT Roorkee also receive notable coverage, with 21%, 17%, and 7% of the SOV respectively.\n"
     "IIT Ropar holds a smaller share of the online conversation compared to its peers, with just 1% of the SOV and ranks 6th i.e., last in the SOV.\n"
     "Despite ranking lower in terms of SOV, IIT Ropar's presence indicates some level of visibility and recognition within the online media landscape.",
-  , 
         "IIT Ropar witnessed its highest news coverage in Sept -2023, with 7 articles. The news during this period mainly revolved around topics such as:\n"
     "IIT Ropar Placements: Average salary, placed students increase despite Covid slowdown\n"
     "Purohit allows IIT-Ropar to set up campus in Edu City\n"
