@@ -294,7 +294,7 @@ if file:
         # st.write(data)
 
         # Data preprocessing
-        data.drop(columns=data.columns[10:], axis=1, inplace=True)
+        data.drop(columns=data.columns[15:], axis=1, inplace=True)
         data = data.rename({'Influencer': 'Journalist'}, axis=1)
         data.drop_duplicates(subset=['Date', 'Entity', 'Headline', 'Publication Name'], keep='first', inplace=True)
         data.drop_duplicates(subset=['Date', 'Entity', 'Opening Text', 'Publication Name'], keep='first', inplace=True, ignore_index=True)
