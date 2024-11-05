@@ -158,7 +158,7 @@ def add_table_to_slide(slide, df, title, textbox_text):
     left = Inches(1)
     top = Inches(1.5)
     width = Inches(14)
-    max_table_height = Inches(7)
+    max_table_height = Inches(5)
     total_height_needed = Inches(0.8 * (rows + 1))
     height = max_table_height if total_height_needed > max_table_height else total_height_needed
 
@@ -182,7 +182,7 @@ def add_table_to_slide(slide, df, title, textbox_text):
         for paragraph in cell.text_frame.paragraphs:
             for run in paragraph.runs:
                 run.font.name = 'Gill Sans'
-                run.font.size = Pt(17)
+                run.font.size = Pt(15)
                 run.font.bold = True
                 run.font.color.rgb = RGBColor(0, 0, 0)
         cell.text_frame.paragraphs[0].alignment = PP_ALIGN.CENTER
@@ -204,7 +204,7 @@ def add_table_to_slide(slide, df, title, textbox_text):
             cell.vertical_anchor = MSO_VERTICAL_ANCHOR.MIDDLE
 
     # Add a text box above the table (shared across all DataFrame slides)
-    textbox_left = Inches(1.5)  # Adjust left positioning as needed
+    textbox_left = Inches(0.5)  # Adjust left positioning as needed
     textbox_top = Inches(0.8)  # Adjust top positioning as needed
     textbox_width = Inches(16)  # Adjust width
     textbox_height = Inches(1)  # Adjust height
