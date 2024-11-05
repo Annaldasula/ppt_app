@@ -205,6 +205,7 @@ def add_table_to_slide(slide, df, title, textbox_text):
 
     # Add a text box above the table (shared across all DataFrame slides)
     textbox_left = Inches(0.25)  # Adjust left positioning as needed
+    textbox_right = Inches(0.25)
     textbox_top = Inches(0.8)  # Adjust top positioning as needed
     textbox_width = Inches(17)  # Adjust width
     textbox_height = Inches(4)  # Adjust height
