@@ -204,9 +204,9 @@ def add_table_to_slide(slide, df, title, textbox_text):
             cell.vertical_anchor = MSO_VERTICAL_ANCHOR.MIDDLE
 
     # Add a text box above the table (shared across all DataFrame slides)
-    textbox_left = Inches(1)  # Adjust left positioning as needed
+    textbox_left = Inches(0.8)  # Adjust left positioning as needed
     textbox_top = Inches(0.8)  # Adjust top positioning as needed
-    textbox_width = Inches(14)  # Adjust width
+    textbox_width = Inches(16)  # Adjust width
     textbox_height = Inches(1)  # Adjust height
 
     text_box = slide.shapes.add_textbox(textbox_left, textbox_top, textbox_width, textbox_height)
@@ -216,7 +216,7 @@ def add_table_to_slide(slide, df, title, textbox_text):
 
     for paragraph in text_frame.paragraphs:
         for run in paragraph.runs:
-            run.font.size = Pt(18)  # Adjust the font size as needed
+            run.font.size = Pt(16)  # Adjust the font size as needed
 #             run.font.bold = True
             run.font.name = 'Gill Sans'
     text_frame.paragraphs[0].alignment = PP_ALIGN.LEFT  # Left align the text
