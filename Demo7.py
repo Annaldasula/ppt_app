@@ -216,7 +216,7 @@ def add_table_to_slide(slide, df, title, textbox_text):
 
     for paragraph in text_frame.paragraphs:
         for run in paragraph.runs:
-            run.font.size = Pt(16)  # Adjust the font size as needed
+            run.font.size = Pt(17)  # Adjust the font size as needed
 #             run.font.bold = True
             run.font.name = 'Gill Sans'
     text_frame.paragraphs[0].alignment = PP_ALIGN.LEFT  # Left align the text
