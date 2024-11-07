@@ -24,6 +24,7 @@ from pptx.enum.text import PP_ALIGN
 from pptx.dml.color import RGBColor
 from pptx.enum.text import MSO_VERTICAL_ANCHOR
 from pptx.util import Inches
+from io import BytesIO
 
 # Function to extract entity name from file path
 def extract_entity_name(file_path):
