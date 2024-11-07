@@ -1057,3 +1057,4 @@ else:
 
 st.write("## Preview Selected DataFrame")
 selected_dataframe = st.selectbox("Select DataFrame to Preview:", list(dataframes_to_download.keys()))
+st.dataframe(dataframes_to_download[selected_dataframe])
