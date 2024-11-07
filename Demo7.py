@@ -26,6 +26,10 @@ from pptx.enum.text import MSO_VERTICAL_ANCHOR
 from pptx.util import Inches
 from io import BytesIO
 
+
+# Streamlit app with a sidebar layout
+st.set_page_config(layout="wide")
+
 # Function to extract entity name from file path
 def extract_entity_name(file_path):
     base_name = os.path.basename(file_path)
@@ -322,9 +326,6 @@ def top_10_dfs(df_list, file_name, comments, top_11_flags):
 
     writer.close()    
     
-
-# Streamlit app with a sidebar layout
-st.set_page_config(layout="wide")
 
 # Custom CSS for title bar position
 title_bar_style = """
